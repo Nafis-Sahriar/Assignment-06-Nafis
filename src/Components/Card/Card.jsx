@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { TiTick } from "react-icons/ti";
+import { toast } from "react-toastify";
 
 const Card = ({ product, cart, setCart }) => {
 
@@ -14,10 +15,11 @@ const Card = ({ product, cart, setCart }) => {
         if(!isFound)
         {
             setCart([...cart, product]);
+            toast.success(`${product.name} - Added to Cart!`,{autoClose: 3000,theme: "colored"} )
         }
         else
         {
-            alert("Cart Already Exists in Cart");
+           toast.warning(`${product.name} Already Exists in your Cart!`, {autoClose: 3000,theme: "colored"})
         }
 
 
