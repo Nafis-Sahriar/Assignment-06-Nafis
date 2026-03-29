@@ -5,6 +5,7 @@ import ToggleButton from "./Components/PremiumDigitalTools/ToggleButton";
 import Tools from "./Components/PremiumDigitalTools/Tools";
 import Cart from "./Components/Cart/Cart";
 import GetStarted from "./Components/HomePage/GetStarted";
+import Banner from "./Components/HomePage/Banner";
 
 
 
@@ -42,6 +43,10 @@ function App()
 
 
       {/* On Click Product or by default */}
+
+      {
+        activeMode==="product" && <Banner></Banner>
+      }
 
     
      <PremiumDText></PremiumDText>
