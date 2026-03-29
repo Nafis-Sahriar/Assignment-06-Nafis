@@ -11,7 +11,7 @@ const Cart = ({cart, setCart}) => {
     const handleCheckout=()=>{
         cart =[];
         setCart(cart);
-        toast.success("Payment Successful!" , {autoClose: 3000,theme: "colored"});
+        toast.success("Payment Successful!" , {autoClose: 3000,theme: "colored",position: "top-center"});
     }
 
     const totalPrice = cart.reduce((sum, product)=>sum+product.price , 0);

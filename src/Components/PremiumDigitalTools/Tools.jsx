@@ -16,7 +16,7 @@ const Tools = ({productPromise, cart, setCart}) => {
     // console.log(products);
 
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto gap-7'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto gap-7 mb-20'>
 
             {
                 products.map(product => 

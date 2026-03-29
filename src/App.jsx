@@ -4,6 +4,8 @@ import PremiumDText from "./Components/PremiumDigitalTools/PremiumDText"
 import ToggleButton from "./Components/PremiumDigitalTools/ToggleButton";
 import Tools from "./Components/PremiumDigitalTools/Tools";
 import Cart from "./Components/Cart/Cart";
+import GetStarted from "./Components/HomePage/GetStarted";
+
 
 
 const loadProductData = async()=>{
@@ -54,7 +56,7 @@ function App()
         
         activeMode==="product" &&
 
-    <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+    <Suspense fallback={  <div className="flex items-center justify-center min-h-[10vh] text-purple-600"><span className="loading loading-spinner loading-xl"></span></div> }>
       <Tools cart={cart} setCart={setCart} productPromise={productPromise}></Tools>
     </Suspense>
     }
@@ -62,6 +64,15 @@ function App()
     {
       activeMode==="cart" && <Cart  cart={cart} setCart={setCart}></Cart>
     }
+
+
+  
+    {
+      activeMode==="product" &&<GetStarted></GetStarted>
+    }
+    
+  
+    
     
     
 

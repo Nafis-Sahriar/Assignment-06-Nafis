@@ -38,9 +38,9 @@ const NavBar = ({cartLength, setActiveMode}) => {
     </ul>
   </div>
 
-  <div className="navbar-end gap-2">
-    <button onClick={()=>setActiveMode("cart")} className='btn rounded-full relative text-shadow-purple-800 text-2xl'>  <LittleCount cartLength={cartLength}></LittleCount>  <CiShoppingCart /></button>
-    <button className='btn btn-ghost'>Log In</button>
+  <div className="navbar-end md:gap-2">
+    <button onClick={()=>setActiveMode("cart")} className=' rounded-full relative hover:text-3xl text-shadow-purple-800 md:text-2xl'>  <LittleCount cartLength={cartLength}></LittleCount>  <CiShoppingCart /></button>
+    <button className='btn btn-ghost hover:bg-purple-700 hover:text-white rounded-full'>Log In</button>
     <a className="btn rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514fa] font-semibold text-white">Get Started</a>
   </div>
 </div>

@@ -15,11 +15,11 @@ const Card = ({ product, cart, setCart }) => {
         if(!isFound)
         {
             setCart([...cart, product]);
-            toast.success(`${product.name} - Added to Cart!`,{autoClose: 3000,theme: "colored"} )
+            toast.success(`${product.name} - Added to Cart!`,{autoClose: 3000,theme: "colored",position: "top-center"} )
         }
         else
         {
-           toast.warning(`${product.name} Already Exists in your Cart!`, {autoClose: 3000,theme: "colored"})
+           toast.warning(`${product.name} Already Exists in your Cart!`, {autoClose: 3000,theme: "colored",position: "top-center"})
         }
 
 

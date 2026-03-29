@@ -6,9 +6,9 @@ const LittleCount = ({cartLength}) => {
         <div>
 
         {
-            cartLength !=0 && <span className='absolute -top-2 -right-2 bg-red-500 rounded-full text-white text-sm p-1 px-2'>{cartLength}</span>
+            cartLength !=0 && <span className='absolute -top-5 -right-4  bg-red-500 rounded-full text-white text-sm  px-2'>{cartLength}</span>
         }
-        
+
         </div>
         
         
