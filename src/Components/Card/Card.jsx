@@ -1,7 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import { TiTick } from "react-icons/ti";
 
-const Card = ({ product }) => {
+const Card = ({ product, cart, setCart }) => {
+
+    const [buttonText, setButtonText] =useState(false);
+
+    const handleBuyNow=()=>
+    {
+        setButtonText(true);
+
+        const isFound = cart.find(prod => prod.name === product.name);
+
+        if(!isFound)
+        {
+            setCart([...cart, product]);
+        }
+        else
+        {
+            alert("Cart Already Exists in Cart");
+        }
+
+
+        
+    }
+
+
   return (
     <div className="bg-white rounded-2xl shadow-md p-6 relative">
 
@@ -17,20 +40,13 @@ const Card = ({ product }) => {
         {product.tag}
       </span>
 
+      <h2 className="text-xl font-semibold mb-2">{product.name} </h2>
 
-      {/* TITLE */}
-      <h2 className="text-xl font-semibold mb-2">
-        {product.name}
-      </h2>
 
-      {/* DESCRIPTION */}
-      <p className="text-gray-500 text-sm mb-4">
-        {product.description}
-      </p>
+      <p className="text-gray-500 text-sm mb-4">{product.description}</p>
 
-      {/* PRICE */}
-      <p className="text-2xl font-bold mb-4">
-        ${product.price}
+      
+      <p className="text-2xl font-bold mb-4">${product.price}
         <span className="text-gray-400 text-sm font-normal">
           / {product.period}
         </span>
@@ -38,18 +54,24 @@ const Card = ({ product }) => {
 
       
       <ul className="mb-6 space-y-2">
+
         {product.features.map((feature, index) => (
+
           <li key={index} className="flex items-center gap-2 text-gray-600 text-sm">
             <span className="text-green-500"><TiTick /></span>
             {feature}
           </li>
+
         ))}
       </ul>
 
      
-      <button className="w-full py-3 rounded-full text-white font-medium bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
-        Buy Now
-      </button>
+      <button onClick={handleBuyNow} className={`btn w-full py-3 font-bold rounded-full text-white ${buttonText? "bg-green-500" :" bg-linear-to-r from-[#4F39F6] to-[#9514FA]   hover:bg-linear-to-r hover:from-[#720ebe] hover:to-[#432cf4]" }  `}>
+
+        {buttonText?"Added To Cart" : "Buy Now"}
+        
+        
+        </button>
 
     </div>
   );

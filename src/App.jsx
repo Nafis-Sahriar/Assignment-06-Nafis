@@ -3,6 +3,7 @@ import NavBar from "./Components/Navbar/NavBar"
 import PremiumDText from "./Components/PremiumDigitalTools/PremiumDText"
 import ToggleButton from "./Components/PremiumDigitalTools/ToggleButton";
 import Tools from "./Components/PremiumDigitalTools/Tools";
+import Cart from "./Components/Cart/Cart";
 
 
 const loadProductData = async()=>{
@@ -18,15 +19,19 @@ const productPromise = loadProductData();
 
 
 
-
-
 function App() 
 {
-  // const [activeMode , setAciveMode] = useState("product");
+  const [activeMode , setActiveMode] = useState("product");
+
+  const [cart, setCart]= useState([]);
+
+  // console.log(activeMode);
+
+  // console.log(cart);
 
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar cartLength={cart.length} setActiveMode={setActiveMode}></NavBar>
 
       {/* Ekhane Banner Ashbe, Pore korbo */}
       {/* Ekhane Count er choto div ta ashbe. */}  
@@ -36,14 +41,28 @@ function App()
 
       {/* On Click Product or by default */}
 
-    <PremiumDText></PremiumDText>
+    
+     <PremiumDText></PremiumDText>
+    
 
-    <ToggleButton></ToggleButton>
+    
 
+    
+    <ToggleButton cart={cart} setActiveMode={setActiveMode}></ToggleButton>
+
+    {
+        
+        activeMode==="product" &&
 
     <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
-      <Tools productPromise={productPromise}></Tools>
+      <Tools cart={cart} setCart={setCart} productPromise={productPromise}></Tools>
     </Suspense>
+    }
+
+    {
+      activeMode==="cart" && <Cart  cart={cart} setCart={setCart}></Cart>
+    }
+    
     
 
        
