@@ -2,10 +2,11 @@ import React from 'react';
 import { CiShoppingCart } from "react-icons/ci";
 import digiLogo from "../../assets/DigiTools.png";
 import { AiOutlineMenuFold } from "react-icons/ai";
+import LittleCount from './LittleCount';
 
 const NavBar = () => {
     return (
-        <div className="navbar bg-base-100 shadow-sm md:w-[90%] mx-auto">
+        <div className="navbar bg-base-100 shadow-sm md:w-[90%] mx-auto mt-5">
 
              <div className="navbar-start">
                 <div className="dropdown">
@@ -38,9 +39,9 @@ const NavBar = () => {
   </div>
 
   <div className="navbar-end gap-2">
-    <button className='btn rounded-full text-shadow-purple-800 text-2xl'><CiShoppingCart /></button>
+    <button className='btn rounded-full relative text-shadow-purple-800 text-2xl'>  <LittleCount></LittleCount>  <CiShoppingCart /></button>
     <button className='btn btn-ghost'>Log In</button>
-    <a className="btn rounded-full btn-primary font-semibold">Get Started</a>
+    <a className="btn rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514fa] font-semibold text-white">Get Started</a>
   </div>
 </div>
     

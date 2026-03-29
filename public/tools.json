@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "icon": "https://i.ibb.co.com/CRjPShS/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ],
+    "icon": "https://i.ibb.co.com/nTmbNfq/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ],
+    "icon": "https://i.ibb.co.com/xSsf8kkd/Group-7.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 79,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ],
+    "icon": "https://i.ibb.co.com/2711bbNn/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "https://i.ibb.co.com/JRpt5Qkp/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ],
+    "icon": "https://i.ibb.co.com/v6h7b726/social-media.png"
+  },
+
+  {
+    "id": 7,
+    "name": "AI Image Generator",
+    "description": "Create stunning AI-generated images for marketing, art, and social media.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited generations",
+      "HD downloads",
+      "Style presets"
+    ],
+    "icon": "https://i.ibb.co.com/27wDfjqm/ai-image-generator-3d-icon-png-download-7781235.webp"
+  },
+  {
+    "id": 8,
+    "name": "Video Editing Suite",
+    "description": "Edit professional videos with powerful tools and ready-made effects.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "4K export",
+      "Drag & drop editor",
+      "100+ transitions"
+    ],
+    "icon": "https://i.ibb.co.com/gMPHSNst/6979672.png"
+  },
+  {
+    "id": 9,
+    "name": "Website Builder Pro",
+    "description": "Build responsive websites easily with drag-and-drop functionality.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "100+ templates",
+      "SEO tools",
+      "Custom domains"
+    ],
+    "icon": "https://i.ibb.co.com/7tjkmVVs/14380834.png"
+  },
+  {
+    "id": 10,
+    "name": "Email Marketing Kit",
+    "description": "Design, send, and track email campaigns with advanced analytics.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Automation flows",
+      "Template library",
+      "Open rate tracking"
+    ],
+    "icon": "https://i.ibb.co.com/gZfJLMZk/free-email-marketing-icon-svg-download-png-2144712.webp"
+  },
+  {
+    "id": 11,
+    "name": "SEO Optimization Tool",
+    "description": "Boost your website ranking with powerful SEO insights and tools.",
+    "price": 34,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Keyword research",
+      "Competitor analysis",
+      "Site audit"
+    ],
+    "icon": "https://i.ibb.co.com/qMfV5ffq/3d-seo-search-engine-optimization-concept-png.png"
+  },
+  {
+    "id": 12,
+    "name": "Cloud Storage Pro",
+    "description": "Secure and scalable cloud storage for your files and backups.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "1TB storage",
+      "Secure encryption",
+      "Multi-device sync"
+    ],
+    "icon": "https://i.ibb.co.com/Lz4qBn2C/3812117.png"
+  }
+]
