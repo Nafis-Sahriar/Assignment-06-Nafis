@@ -7,6 +7,7 @@ import Cart from "./Components/Cart/Cart";
 import GetStarted from "./Components/HomePage/GetStarted";
 import Banner from "./Components/HomePage/Banner";
 import Counter from "./Components/HomePage/Counter";
+import Pricing from "./Components/HomePage/Pricing";
 
 
 
@@ -78,6 +79,10 @@ function App()
   
     {
       activeMode==="product" &&<GetStarted></GetStarted>
+    }
+
+    {
+      activeMode==="product" &&<Pricing></Pricing>
     }
     
   
