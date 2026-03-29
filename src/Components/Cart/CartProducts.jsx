@@ -13,20 +13,20 @@ const CartProducts = ({cart, setCart}) => {
     return (
         <div>
             {
-                cart.map(product => <div key={product.id} className='flex items-center justify-between p-5 shadow-md rounded-2xl border my-8 w-[90%] mx-auto'>
+                cart.map(product => <div key={product.id} className='flex flex-col gap-4 md:flex-row md:items-center md:justify-between p-4 md:p-5 shadow-md rounded-2xl border my-8 w-[95%] mx-auto'>
 
                     <div className='flex gap-5'>
-                            <img className='w-12' src={product.icon} alt="" />
+                            <img className='w-10 h-10 md:w-12 md:h-12' src={product.icon} alt="" />
 
 
                             <div>
-                                    <h3>{product.name}</h3>
+                                    <h3 className='font-semibold text-sm md:text-base'>{product.name}</h3>
                                     <p>${product.price}</p>
                             </div>
                     </div>
 
-                    <div>
-                        <button onClick={()=>handleRemove(product)} className='btn rounded-full btn-ghost text-red-500'>Remove</button>
+                    <div className='w-full md:w-auto text-center'>
+                        <button onClick={()=>handleRemove(product)} className='btn hover:bg-red-700 hover:text-white rounded-full btn-ghost text-red-500'>Remove</button>
                     </div>
 
                     
