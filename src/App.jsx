@@ -6,6 +6,7 @@ import Tools from "./Components/PremiumDigitalTools/Tools";
 import Cart from "./Components/Cart/Cart";
 import GetStarted from "./Components/HomePage/GetStarted";
 import Banner from "./Components/HomePage/Banner";
+import Counter from "./Components/HomePage/Counter";
 
 
 
@@ -48,6 +49,9 @@ function App()
         activeMode==="product" && <Banner></Banner>
       }
 
+      {
+        activeMode==="product" && <Counter></Counter>
+      }
     
      <PremiumDText></PremiumDText>
     

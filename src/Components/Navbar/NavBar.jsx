@@ -6,7 +6,7 @@ import LittleCount from './LittleCount';
 
 const NavBar = ({cartLength, setActiveMode}) => {
     return (
-        <div className="navbar bg-base-100 shadow-sm md:w-[90%] mx-auto mt-5 sticky z-10 top-0">
+        <div className="navbar bg-base-100 shadow-sm md:w-[90%] mx-auto mt-5 sticky z-10 top-0 rounded-md">
 
              <div className="navbar-start">
                 <div className="dropdown">
@@ -15,7 +15,7 @@ const NavBar = ({cartLength, setActiveMode}) => {
                         <AiOutlineMenuFold />
                      </div>
                   <ul  tabIndex="-1" className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                       <li><a>Products</a></li>
+                       <li onClick={()=>setActiveMode("product")}><a>Products</a></li>
                        <li><a>Features</a></li>
                        <li><a>Pricing</a></li>
                        <li><a>Testimonials</a></li>
@@ -23,13 +23,13 @@ const NavBar = ({cartLength, setActiveMode}) => {
                  </ul>
                </div>
 
-                <a className="btn btn-ghost text-xl"><img className='w-20 md:w-40' src={digiLogo} alt="" /></a>
+                <a onClick={()=>setActiveMode("product")} className="p-2 pt-4 text-xl"><img className='w-20 md:w-40' src={digiLogo} alt="" /></a>
             </div>
 
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
 
-       <li className='hover:bg-primary font-semibold hover:text-white hover:rounded-xl'><a>Products</a></li>
+       <li onClick={()=>setActiveMode("product")} className='hover:bg-primary font-semibold hover:text-white hover:rounded-xl'><a>Products</a></li>
        <li className='hover:bg-primary font-semibold hover:text-white hover:rounded-xl'><a>Features</a></li>
        <li className='hover:bg-primary font-semibold hover:text-white hover:rounded-xl'><a>Pricing</a></li>
        <li className='hover:bg-primary font-semibold hover:text-white hover:rounded-xl'><a>Testimonials</a></li>
