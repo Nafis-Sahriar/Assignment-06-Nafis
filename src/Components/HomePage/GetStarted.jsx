@@ -23,7 +23,7 @@ const GetStarted = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 w-[95%]  gap-7 mx-auto pb-20">
 
             
-            <div className="relative bg-white rounded-2xl shadow-md p-6 text-center md:h-95  flex flex-col items-center justify-center">
+            <div className="relative bg-white rounded-2xl shadow-purple-300 shadow-md p-6 text-center hover:cursor-pointer md:h-95  flex flex-col items-center justify-center hover:scale-101 hover:shadow-2xl">
 
           
                     <span className="absolute top-4 right-4 bg-purple-700 text-white font-semibold text-xs px-2.5 py-2 rounded-full">01</span>
@@ -39,7 +39,7 @@ const GetStarted = () => {
             </div>
 
            
-            <div className="relative bg-white rounded-2xl shadow-md p-6 text-center md:h-95  flex flex-col items-center justify-center">
+            <div className="relative bg-white rounded-2xl shadow-md p-6 text-center md:h-95  flex flex-col items-center justify-center hover:scale-101 hover:shadow-2xl shadow-purple-300">
 
                     <span className="absolute top-4 right-4 font-semibold bg-purple-700 text-white text-xs px-2.5 py-2 rounded-full">02</span>
 
@@ -53,7 +53,7 @@ const GetStarted = () => {
             </div>
 
            
-            <div className="relative bg-white rounded-2xl shadow-md p-6 text-center md:h-95  flex flex-col items-center justify-center">
+            <div className="relative bg-white rounded-2xl shadow-md p-6 text-center md:h-95  flex flex-col items-center justify-center hover:scale-101 hover:shadow-2xl shadow-purple-300">
 
                     <span className="absolute top-4 right-4 bg-purple-700 text-white text-xs px-2.5 py-2 font-semibold rounded-full">03</span>
 

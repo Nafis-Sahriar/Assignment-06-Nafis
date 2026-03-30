@@ -28,7 +28,7 @@ const Card = ({ product, cart, setCart }) => {
 
 
   return (
-    <div className="bg-white rounded-2xl shadow-md p-6 relative">
+    <div className="bg-white rounded-2xl shadow-purple-300 shadow-md p-6 relative hover:scale-101 hover:shadow-2xl">
 
       
      
@@ -57,7 +57,7 @@ const Card = ({ product, cart, setCart }) => {
 
      
 
-      <h2 className="text-xl font-semibold mb-2">{product.name} </h2>
+      <h2 className="text-xl font-bold mb-2 bg-linear-to-r from-[#4F39F6] to-[#9514fa] bg-clip-text text-transparent">{product.name} </h2>
 
 
       <p className="text-gray-500 text-sm mb-4">{product.description}</p>

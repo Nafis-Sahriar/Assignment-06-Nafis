@@ -17,7 +17,7 @@ const Pricing = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
      
-                    <div className="bg-white rounded-2xl shadow-md p-6 flex flex-col justify-between">
+                    <div className="bg-white rounded-2xl shadow-md p-6 flex flex-col justify-between hover:scale-105 hover:shadow-2xl shadow-purple-300">
                         <div>
                         <h3 className="text-xl font-bold mb-1">Starter</h3>
                         <p className="text-gray-500 text-sm mb-4">Perfect for getting started</p>
@@ -36,51 +36,51 @@ const Pricing = () => {
                     </div>
 
      
-      <div className="relative rounded-2xl p-6 flex flex-col justify-between text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-lg">
+                <div className="relative rounded-2xl p-6 flex flex-col justify-between text-white bg-linear-to-r scale-102 from-[#4F39F6] to-[#9514FA] shadow-lg hover:scale-105 hover:shadow-2xl shadow-purple-300">
 
-        
-            <span className="absolute -top-3 left-45 md:left-35  bg-yellow-200 text-yellow-700 font-bold text-xs px-3 py-1 rounded-full">Most Popular</span>
+                    
+                        <span className="absolute -top-3 left-45 md:left-35  bg-yellow-200 text-yellow-700 font-bold text-xs px-3 py-1 rounded-full">Most Popular</span>
 
-            <div>
-                    <h3 className="text-xl font-semibold mb-1">Pro</h3>
-                    <p className="text-white/80 text-sm mb-4">Best for professionals</p>
+                        <div>
+                                <h3 className="text-xl font-semibold mb-1">Pro</h3>
+                                <p className="text-white/80 text-sm mb-4">Best for professionals</p>
 
-                    <h2 className="text-3xl font-bold mb-4">$29 <span className="text-white text-base font-normal">/ Month</span></h2>
+                                <h2 className="text-3xl font-bold mb-4">$29 <span className="text-white text-base font-normal">/ Month</span></h2>
 
-                    <ul className="space-y-2 text-sm">
-                        <li className='flex items-center gap-2'><ImCheckmark />Access to all premium tools</li>
-                        <li className='flex items-center gap-2'><ImCheckmark />Unlimited templates</li>
-                        <li className='flex items-center gap-2'><ImCheckmark /> Priority support</li>
-                        <li className='flex items-center gap-2'><ImCheckmark />Unlimited projects</li>
-                        <li className='flex items-center gap-2'><ImCheckmark /> Cloud sync</li>
-                        <li className='flex items-center gap-2'><ImCheckmark />Advanced analytics</li>
-                    </ul>
-            </div>
+                                <ul className="space-y-2 text-sm">
+                                    <li className='flex items-center gap-2'><ImCheckmark />Access to all premium tools</li>
+                                    <li className='flex items-center gap-2'><ImCheckmark />Unlimited templates</li>
+                                    <li className='flex items-center gap-2'><ImCheckmark /> Priority support</li>
+                                    <li className='flex items-center gap-2'><ImCheckmark />Unlimited projects</li>
+                                    <li className='flex items-center gap-2'><ImCheckmark /> Cloud sync</li>
+                                    <li className='flex items-center gap-2'><ImCheckmark />Advanced analytics</li>
+                                </ul>
+                        </div>
 
-             <button className="btn font-bold mt-6 w-full py-3 rounded-full bg-white text-purple-600 "> Start Pro Trial</button>
-      </div>
-
-      
-      <div className="bg-white rounded-2xl shadow-md p-6 flex flex-col justify-between">
-
-                <div>
-                        <h3 className="text-xl font-semibold mb-1">Enterprise</h3>
-                        <p className="text-gray-500 text-sm mb-4">For teams and businesses</p>
-
-                        <h2 className="text-3xl font-bold mb-4"> $99 <span className="text-gray-400 text-base font-normal">/ Month</span></h2>
-
-                        <ul className="space-y-2 text-gray-600 text-sm">
-                            <li className='flex items-center gap-2'><span className='text-green-600'><ImCheckmark /></span> Everything in Pro</li>
-                            <li className='flex items-center gap-2'><span className='text-green-600'><ImCheckmark /></span> Team collaboration</li>
-                            <li className='flex items-center gap-2'><span className='text-green-600'><ImCheckmark /></span> Custom integrations</li>
-                            <li className='flex items-center gap-2'><span className='text-green-600'><ImCheckmark /></span> Dedicated support</li>
-                            <li className='flex items-center gap-2'><span className='text-green-600'><ImCheckmark /></span> SLA guarantee</li>
-                            <li className='flex items-center gap-2'><span className='text-green-600'><ImCheckmark /></span> Custom branding</li>
-                        </ul>
+                        <button className="btn font-bold mt-6 w-full py-3 rounded-full bg-white text-purple-600 "> Start Pro Trial</button>
                 </div>
 
-                <button className="btn font-bold mt-6 w-full py-3 rounded-full text-white  bg-linear-to-r from-[#4F39F6] to-[#9514FA]"> Contact Sales </button>
-      </div>
+      
+                <div className="bg-white rounded-2xl shadow-md p-6 flex flex-col justify-between hover:scale-105 hover:shadow-2xl shadow-purple-300">
+
+                            <div>
+                                    <h3 className="text-xl font-semibold mb-1">Enterprise</h3>
+                                    <p className="text-gray-500 text-sm mb-4">For teams and businesses</p>
+
+                                    <h2 className="text-3xl font-bold mb-4"> $99 <span className="text-gray-400 text-base font-normal">/ Month</span></h2>
+
+                                    <ul className="space-y-2 text-gray-600 text-sm">
+                                        <li className='flex items-center gap-2'><span className='text-green-600'><ImCheckmark /></span> Everything in Pro</li>
+                                        <li className='flex items-center gap-2'><span className='text-green-600'><ImCheckmark /></span> Team collaboration</li>
+                                        <li className='flex items-center gap-2'><span className='text-green-600'><ImCheckmark /></span> Custom integrations</li>
+                                        <li className='flex items-center gap-2'><span className='text-green-600'><ImCheckmark /></span> Dedicated support</li>
+                                        <li className='flex items-center gap-2'><span className='text-green-600'><ImCheckmark /></span> SLA guarantee</li>
+                                        <li className='flex items-center gap-2'><span className='text-green-600'><ImCheckmark /></span> Custom branding</li>
+                                    </ul>
+                            </div>
+
+                            <button className="btn font-bold mt-6 w-full py-3 rounded-full text-white  bg-linear-to-r from-[#4F39F6] to-[#9514FA]"> Contact Sales </button>
+                </div>
 
     </div>
 

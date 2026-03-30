@@ -34,7 +34,7 @@ const Banner = () => {
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
 
-                        <button className="btn px-6 py-3 rounded-full text-white font-semibold bg-linear-to-r from-[#4F39F6] to-[#9514FA]">Explore Products</button>
+                        <button className="btn px-6 py-3 rounded-full text-white font-semibold bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:scale-101 hover:shadow-2xl">Explore Products</button>
 
                         <button className="px-6 btn flex items-center hover:bg-linear-to-r from-[#4F39f6] to-[#9514fa] hover:text-white gap-2 py-3 font-semibold rounded-full border border-purple-500 text-purple-600">
                            <CiPlay1 /> Watch Demo

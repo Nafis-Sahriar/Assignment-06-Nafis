@@ -1,6 +1,7 @@
 import { FaFacebook, FaInstagram } from "react-icons/fa";
-import logo from "../../assets/DigiTools.png"
+// import logo from "../../assets/DigiTools.png"
 import { BsTwitterX } from "react-icons/bs";
+import footerLOGO from "../../assets/FooterPng.png";
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
           
           <div className="md:col-span-4">
             <div className="flex items-center gap-3 mb-6">
-              <img src={logo} alt="AI Hub Logo" className="h-10 w-auto" />
+              <img src={footerLOGO} alt="AI Hub Logo" className="h-10 w-auto" />
              
             </div>
 
