@@ -8,6 +8,7 @@ import GetStarted from "./Components/HomePage/GetStarted";
 import Banner from "./Components/HomePage/Banner";
 import Counter from "./Components/HomePage/Counter";
 import Pricing from "./Components/HomePage/Pricing";
+import Workflow from "./Components/HomePage/Workflow";
 
 
 
@@ -83,6 +84,10 @@ function App()
 
     {
       activeMode==="product" &&<Pricing></Pricing>
+    }
+    
+    {
+      activeMode==="product" && <Workflow></Workflow>
     }
     
   
