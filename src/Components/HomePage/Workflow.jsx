@@ -13,11 +13,11 @@ const Workflow = () => {
                     <p className="text-white text-sm mt-8 mb-8">Join thousands of professionals who are already using DigiTools to work smarter.<br />Start your free trial today.</p>
 
         
-                    <div className="flex flex-col sm:flex-row justify-center gap-4 mb-6">
+                    <div className="flex flex-row justify-center gap-4 mb-6">
 
                   
                         <button className="px-6 btn py-3 rounded-full bg-white text-purple-600 font-bold">Explore Products</button>
-                        <button className=" btn rounded-full border bg-transparent btn-outline hover:bg-white py-3  hover:text-purple-600 px-6 border-white text-white font-bold"> View Pricing</button>
+                        <button className=" btn rounded-full border bg-transparent btn-outline hover:bg-white py-3  hover:text-purple-600  border-white text-white font-bold"> View Pricing</button>
 
                     </div>
 

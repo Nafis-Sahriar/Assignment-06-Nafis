@@ -179,5 +179,185 @@
       "Multi-device sync"
     ],
     "icon": "https://i.ibb.co.com/Lz4qBn2C/3812117.png"
+  },
+  {
+    "id": 13,
+    "name": "AI Chatbot Builder",
+    "description": "Create intelligent chatbots for websites and apps without coding.",
+    "price": 27,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "No-code builder",
+      "Custom responses",
+      "Multi-platform support"
+    ],
+    "icon": "https://i.ibb.co.com/ycg23c02/pngtree-smart-chatbot-cartoon-clipart-png-image-6620453.png"
+  },
+  {
+    "id": 14,
+    "name": "UI Kit Pro",
+    "description": "Complete UI component library for building modern web and mobile apps.",
+    "price": 45,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "500+ components",
+      "Figma + React files",
+      "Dark/light mode"
+    ],
+    "icon": "https://i.ibb.co.com/M5hWVyW8/original-a891d7a4a37ec27163dc8506b3eeed8a.gif"
+  },
+  {
+    "id": 15,
+    "name": "Code Snippet Library",
+    "description": "Access ready-to-use code snippets for faster development.",
+    "price": 18,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "1000+ snippets",
+      "Multiple languages",
+      "Copy & use instantly"
+    ],
+    "icon": "https://i.ibb.co.com/m5fPSz0W/wired-flat-743-web-code.gif"
+  },
+  {
+    "id": 16,
+    "name": "AI Voice Generator",
+    "description": "Generate realistic voiceovers for videos, ads, and content.",
+    "price": 22,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "50+ voices",
+      "Multiple languages",
+      "Download audio files"
+    ],
+    "icon": "https://i.ibb.co.com/rRs42Jsy/11184162.gif"
+  },
+  {
+    "id": 17,
+    "name": "Bug Tracking System",
+    "description": "Track, manage, and resolve bugs efficiently with your team.",
+    "price": 31,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Issue tracking",
+      "Team collaboration",
+      "Real-time updates"
+    ],
+    "icon": "https://i.ibb.co.com/LhcyMnQ0/bug-searching-animation-gif-download-4561464.webp"
+  },
+  {
+    "id": 18,
+    "name": "Landing Page Builder",
+    "description": "Design high-converting landing pages without coding skills.",
+    "price": 16,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Drag & drop editor",
+      "Templates included",
+      "Mobile responsive"
+    ],
+    "icon": "https://i.ibb.co.com/MLJB62M/images.png"
+  },
+  {
+    "id": 19,
+    "name": "AI Code Assistant",
+    "description": "Boost your coding productivity with AI-powered suggestions.",
+    "price": 35,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Auto code completion",
+      "Bug detection",
+      "Multi-language support"
+    ],
+    "icon": "https://i.ibb.co.com/DPVdq4X9/15579168.gif"
+  },
+  {
+    "id": 20,
+    "name": "Analytics Dashboard Pro",
+    "description": "Track performance metrics and visualize data with ease.",
+    "price": 28,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Custom dashboards",
+      "Real-time data",
+      "Export reports"
+    ],
+    "icon": "https://i.ibb.co.com/zT1PMJ7Z/15578544.gif"
+  },
+  {
+    "id": 21,
+    "name": "Password Manager Plus",
+    "description": "Securely store and manage all your passwords in one place.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Encrypted storage",
+      "Auto-fill login",
+      "Cross-device sync"
+    ],
+    "icon": "https://i.ibb.co.com/pvZd787V/11186762.gif"
+  },
+  {
+    "id": 22,
+    "name": "Project Management Tool",
+    "description": "Organize tasks, teams, and workflows for maximum productivity.",
+    "price": 33,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Kanban boards",
+      "Task tracking",
+      "Team collaboration"
+    ],
+    "icon": "https://i.ibb.co.com/v4vc6j3B/wired-flat-978-project-management.gif"
+  },
+  {
+    "id": 23,
+    "name": "Online Course Builder",
+    "description": "Create and sell online courses with ease and flexibility.",
+    "price": 55,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Course templates",
+      "Student management",
+      "Payment integration"
+    ],
+    "icon": "https://i.ibb.co.com/FpcRFhP/wired-flat-2258-online-learning.gif"
+  },
+  {
+    "id": 24,
+    "name": "AI Presentation Maker",
+    "description": "Generate professional presentations instantly using AI.",
+    "price": 21,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Auto slide generation",
+      "Custom themes",
+      "Export to PPT/PDF"
+    ],
+    "icon": "https://i.ibb.co.com/JFkvWYDV/14447484.gif"
   }
 ]

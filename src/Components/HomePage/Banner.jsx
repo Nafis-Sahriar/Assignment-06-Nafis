@@ -1,11 +1,11 @@
 import React from 'react';
 import bannerPNG from "../../assets/banner.png"
 import { GoDotFill } from "react-icons/go";
-import playIcon from "../../assets/Play.png";
+import { CiPlay1 } from 'react-icons/ci';
 
 const Banner = () => {
     return (
-        
+
     <div className="w-full  flex justify-center my-16">
 
   
@@ -36,8 +36,8 @@ const Banner = () => {
 
                         <button className="btn px-6 py-3 rounded-full text-white font-semibold bg-linear-to-r from-[#4F39F6] to-[#9514FA]">Explore Products</button>
 
-                        <button className="px-6 btn flex items-center gap-2 py-3 font-semibold rounded-full border border-purple-500 text-purple-600">
-                        <img src={playIcon} alt=""/> Watch Demo
+                        <button className="px-6 btn flex items-center hover:bg-linear-to-r from-[#4F39f6] to-[#9514fa] hover:text-white gap-2 py-3 font-semibold rounded-full border border-purple-500 text-purple-600">
+                           <CiPlay1 /> Watch Demo
                         </button>
 
                 </div>
