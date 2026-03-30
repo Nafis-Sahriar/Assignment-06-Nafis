@@ -38,71 +38,36 @@ function App()
 
   return (
     <>
-      <NavBar cartLength={cart.length} setActiveMode={setActiveMode}></NavBar>
+        <NavBar cartLength={cart.length} setActiveMode={setActiveMode}></NavBar>
 
-      {/* Ekhane Banner Ashbe, Pore korbo */}
-      {/* Ekhane Count er choto div ta ashbe. */}  
+        <Banner></Banner>
 
+        <Counter></Counter>
+      
+        <PremiumDText></PremiumDText>
 
+       <ToggleButton cart={cart} setActiveMode={setActiveMode}></ToggleButton>
 
-
-      {/* On Click Product or by default */}
-
-      {
-        activeMode==="product" && <Banner></Banner>
-      }
-
-      {
-        activeMode==="product" && <Counter></Counter>
-      }
-    
-     <PremiumDText></PremiumDText>
-    
-
-    
-
-    
-    <ToggleButton cart={cart} setActiveMode={setActiveMode}></ToggleButton>
-
-    {
-        
+        { 
         activeMode==="product" &&
 
-    <Suspense fallback={  <div className="flex items-center justify-center min-h-[10vh] text-purple-600"><span className="loading loading-spinner loading-xl"></span></div> }>
-      <Tools cart={cart} setCart={setCart} productPromise={productPromise}></Tools>
-    </Suspense>
-    }
+        <Suspense fallback={  <div className="flex items-center justify-center min-h-[10vh] text-purple-600"><span className="loading loading-spinner loading-xl"></span></div> }>
+          <Tools cart={cart} setCart={setCart} productPromise={productPromise}></Tools>
+        </Suspense>
+        }
 
-    {
-      activeMode==="cart" && <Cart  cart={cart} setCart={setCart}></Cart>
-    }
+        {
+          activeMode==="cart" && <Cart  cart={cart} setCart={setCart}></Cart>
+        }
 
+      <GetStarted></GetStarted>
 
+      <Pricing></Pricing>
+
+      <Workflow></Workflow>
   
-    {
-      activeMode==="product" &&<GetStarted></GetStarted>
-    }
+      <Footer></Footer>
 
-    {
-      activeMode==="product" &&<Pricing></Pricing>
-    }
-    
-    {
-      activeMode==="product" && <Workflow></Workflow>
-    }
-
-   
-    
-  
-    <Footer></Footer>
-    
-    
-
-       
-
- 
-
- 
     </>
   )
 }
