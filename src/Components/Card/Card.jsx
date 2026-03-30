@@ -15,7 +15,7 @@ const Card = ({ product, cart, setCart }) => {
         if(!isFound)
         {
             setCart([...cart, product]);
-            toast.success(`${product.name} - Added to Cart!`,{autoClose: 3000,theme: "colored",position: "top-center"} )
+            toast.success(`${product.name} - Added to Cart!`,{autoClose: 3000,theme: "colored",position: "top-right"} )
         }
         else
         {
@@ -38,9 +38,24 @@ const Card = ({ product, cart, setCart }) => {
         <img src={product.icon} alt="" />
       </div>
 
-       <span className="absolute top-4 right-4 bg-yellow-100 text-yellow-600 text-sm px-3 py-1 rounded-full">
-        {product.tag}
-      </span>
+
+        {
+            product.tag==="New" && <span className="absolute top-4 right-4 bg-green-200 text-green-700 font-bold text-sm px-3 py-1 rounded-full">
+             {product.tag}
+             </span>
+        }
+        {
+            product.tag==="Popular" && <span className="absolute top-4 right-4 bg-purple-300 text-purple-700 font-bold text-sm px-3 py-1 rounded-full">
+             {product.tag}
+             </span>
+        }
+        {
+            product.tag==="Best Seller" && <span className="absolute top-4 right-4 bg-yellow-300 font-bold text-yellow-700 text-sm px-3 py-1 rounded-full">
+             {product.tag}
+             </span>
+        }
+
+     
 
       <h2 className="text-xl font-semibold mb-2">{product.name} </h2>
 

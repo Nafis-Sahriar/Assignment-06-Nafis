@@ -23,8 +23,8 @@ const Cart = ({cart, setCart}) => {
        <div className=" w-[95%] md:w-[60%] mx-auto  rounded-2xl shadow-xl p-5 my-5">
 
         <div className="flex justify-between items-center">
-            <h1 className="text-left text-xl md:text-2xl font-bold p-5">Your Cart</h1>
-            <h1 className="font-bold text-lg md:text-xl">Total Products : {cart.length}</h1>
+            <h1 className="text-left text-xl md:text-2xl font-bold p-5 bg-linear-to-r from-purple-800 via-purple-600 to-amber-200 bg-clip-text text-transparent">Your Cart</h1>
+            <h1 className="font-bold text-lg md:text-xl bg-linear-to-r from-purple-800 via-purple-600 to-purple-800 bg-clip-text text-transparent">Total Products : {cart.length}</h1>
         </div>
 
         
@@ -61,7 +61,7 @@ const Cart = ({cart, setCart}) => {
       {
         cart.length!==0 &&  
 
-        <div onClick={handleCheckout} className="w-[95%] md:w-[60%] mx-auto  rounded-full shadow-xl p-3 bg-green-700 ">
+        <div onClick={handleCheckout} className="w-[95%] md:w-[60%] mx-auto hover:cursor-pointer  rounded-full shadow-xl p-3 bg-green-700 ">
 
 
                 <div className="text-xl  flex items-center justify-center gap-4 font-bold text-white text-center">Proceed To Checkout <button className="text-2xl"><IoBagCheckOutline /></button></div>

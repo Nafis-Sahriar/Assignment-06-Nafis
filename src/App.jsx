@@ -60,13 +60,17 @@ function App()
           activeMode==="cart" && <Cart  cart={cart} setCart={setCart}></Cart>
         }
 
-      <GetStarted></GetStarted>
+        <div className="sticky top-16 z-15">
+          <GetStarted></GetStarted>
 
       <Pricing></Pricing>
 
       <Workflow></Workflow>
   
       <Footer></Footer>
+        </div>
+
+      
 
     </>
   )

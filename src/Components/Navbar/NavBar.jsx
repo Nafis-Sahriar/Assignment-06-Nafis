@@ -6,7 +6,7 @@ import LittleCount from './LittleCount';
 
 const NavBar = ({cartLength, setActiveMode}) => {
     return (
-        <div className="navbar bg-base-100 shadow-sm md:w-[90%] mx-auto mt-5 sticky z-10 top-0 rounded-md">
+        <div className="navbar bg-base-100 shadow-sm md:w-[90%] mx-auto mt-5 sticky z-20 top-0 rounded-md">
 
              <div className="navbar-start">
                 <div className="dropdown">

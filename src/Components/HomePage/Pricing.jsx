@@ -3,7 +3,7 @@ import { ImCheckmark } from 'react-icons/im';
 
 const Pricing = () => {
     return (
-        <div className="w-full py-16 bg-gray-50 flex justify-center">
+        <div className="w-full py-16 bg-gray-50 flex justify-center ">
 
              <div className="w-[95%] md:w-[90%] max-w-6xl">
 

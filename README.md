@@ -23,7 +23,11 @@ Whether you're learning frontend development or exploring UI design patterns, Di
 
 * React (Vite)
 * Tailwind CSS
+* HTML
+* Google Fonts
+* JavaScript (ES6+)
 * DaisyUI
 * React Icons
-* React Toastify
+* React-Toastify (NPM - Package)
 * ImageBB for Icons Hosting
+* JSON (For Product Data)

@@ -3,8 +3,8 @@ import { BsDot } from 'react-icons/bs';
 
 const Workflow = () => {
     return (
-        <div>
-            <div className="w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-20 flex justify-center">
+        <div className='sticky top-16 z-16'>
+            <div className="w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-20 flex justify-center ">
 
                 <div className="w-[95%] md:w-[90%] max-w-4xl text-center text-white">
 

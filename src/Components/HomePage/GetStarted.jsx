@@ -10,7 +10,7 @@ const GetStarted = () => {
 
 
 
-        <div className="w-[90%] bg-[#F9FAFC] mx-auto pt-20">
+        <div className="w-[90%] bg-[#F9FAFC] mx-auto pt-20 ">
 
      
       <div className="text-center mb-10">
